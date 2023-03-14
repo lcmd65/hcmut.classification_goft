@@ -26,6 +26,11 @@ class list_goft_data:
         for item in self.list:
             item.write_out()
 
+class TreeNode(object):
+    def __init__(self, ids= None, children =[], entropy = 0, depth =0):
+        
+        
+
 ## data deep analyst : 4 level
 def read_file(file_name):
     df = pd.read_csv(file_name +".csv")
