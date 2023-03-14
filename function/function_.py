@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-
+# goft data unit
 class goft_data:
     def __init__(self, outlook, temp, humidity, windy, play_goft):
         self.outlook = outlook
@@ -16,7 +16,8 @@ class goft_data:
               self.humidity, 
               self.windy, 
               self.play_goft)
-        
+
+# gfot data list
 class list_goft_data:
     def __init__(self):
         self.list = []
@@ -26,20 +27,7 @@ class list_goft_data:
             item.write_out()
 
 ## data deep analyst : 4 level
-
 def read_file(file_name):
     df = pd.read_csv(file_name +".csv")
     df.to
     return df
-
-def processing(dataframe_input):
-    for item in dataframe_input.columns:
-        dataframe_input.col(item)
-        dataframe_input
-
-#main
-    
-
-
-if __name__== "__main__":
-    processing()
