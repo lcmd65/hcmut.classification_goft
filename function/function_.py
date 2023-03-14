@@ -28,7 +28,8 @@ class list_goft_data:
 
 class TreeNode(object):
     def __init__(self, ids= None, children =[], entropy = 0, depth =0):
-        
+        self.ids = ids
+        self.children = children
         
 
 ## data deep analyst : 4 level
