@@ -22,5 +22,7 @@ class classification():
         plt.ylabel("write_off")
         plt.show()
 # classification data patern
-# data patern for treacking thu
+# data patern for treacking thu]
+# functional define
+
 
